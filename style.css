@@ -321,7 +321,7 @@ border-top: 1px solid cyan;
         align-items: center;
         padding: 70px 10% 0px;
     }
-    .navbar a{
+    .navbar{
         display: none;
     }
     .navbar a:last-child{
