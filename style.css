@@ -58,12 +58,12 @@ body {
 .menu {
     width: 0px;
     height: 100vh;
-    /* padding: 20px;
-    margin-right: 20px; */
     margin: 80px 0px;
     background: darkcyan;
     top: 0;
     right: 0;
+    border-top-left-radius: 20px;
+    overflow: hidden;
     flex-direction: column;
     display: flex;
     position: absolute;
@@ -321,7 +321,10 @@ border-top: 1px solid cyan;
         align-items: center;
         padding: 70px 10% 0px;
     }
-    .navbar{
+    .menu {
+        overflow: hidden;
+    }
+    .navbar a{
         display: none;
     }
     .navbar a:last-child{
